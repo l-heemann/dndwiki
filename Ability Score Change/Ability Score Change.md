@@ -57,14 +57,13 @@
   In order to roll a Saving Throw, you roll a d20 and add the relevant modifier.
 </details>
 <details>
-  <summary>How do I calculate "Saving Throws"</summary>
+  <summary>How do I calculate "Saving Throws"?</summary>
 
-  ![saving_throws_details.png](img/saving_throws_details.png)
   Your Saving Throw modifier for each Ability is equal to your Ability Modifier for that ability.
   
   You might be "proficient" in some types of saving throws (for example from your class). In that case you mark the circle in front of the Saving throw line and add your proficiency bonus to the ability modifier.
 
-  For example "Freth" is a 2nd level Ranger. Freth has a dexterity modifier of +3. His class gives him a proficiency bonus of +2. Since he is a Ranger he is proficient in dexterity saving throws. Freth marks the circle in front of dexterity saving throws and writes +5 on the line.
+  For example "Freth" is a 2nd level Ranger. Freth has a dexterity modifier of +3. His class/level gives him a proficiency bonus of +2. Since he is a Ranger he is proficient in dexterity saving throws. Freth marks the circle in front of dexterity saving throws and writes +5 on the line.
 
   ![saving_throws_example.png](img/saving_throws_example.png)
 
@@ -81,7 +80,7 @@
 <details>
   <summary>What do "Skills" mean
   </summary>
-  Skills are very similar to saving throws. They are used to determine your characters ability to perform an action or avoid an effect.
+  Skills are very similar to saving throws. They are most often used to determine your characters ability to perform an action.
 
   Your DM might ask you to roll an Investigation check, in order to see how much information you are able to find in the books of an old library.
 
@@ -96,7 +95,7 @@
   
   Freth has an Intelligence modifier of +1, therefore his Arcana modifier becomes +1.
 
-  Similarly to Saving Throws, you can be proficient in some skills. Usually your class and race give you proficiency in some skills. If you are proficient in a skill, you mark the circle in front of that skill and add your proficiency bonus to the modifier.
+  Similarly to Saving Throws, you can be proficient in some skills. Usually your class, background and race give you proficiency in some skills. If you are proficient in a skill, you mark the circle in front of that skill and add your proficiency bonus to the modifier.
 
   Freth is proficient in Nature and Religion and thus has a modifier of +3 in those skills.
 
@@ -115,7 +114,7 @@
 
   Passive checks are used when determining how well a character responds to a situation without actively being aware of it.
 
-  Passive Perception is often used to determine if your character notices something happening. Asking you as a player to roll a dice would reveal that "something" is going on.
+  Passive Perception might, for example, be used to determine if your character notices somebody stealing their coinpurse. Asking you as a player to roll a dice would reveal that "something" is going on.
 </details>
 
 <details>
@@ -162,7 +161,7 @@ At level 4 Fump increases their constitution modifier to +3. This change is appl
 Giving them a new max HP of 30.
 
 At level `n` a characters max HP can be calculated as:
-`(hit dice max) + (n-1) * (hit dice average) + l * (current constitution modifier)`
+`(hit dice max) + (n-1) * (hit dice average) + n * (current constitution modifier)`
 
 Using Fump at level 4 as an example we get
 `6 + (4-1)*4 + 4*3 = 30`
@@ -184,7 +183,7 @@ Using Fump at level 4 as an example we get
 
 ## Initiative
 
-Your initiative modifier is equal to your dexterity modifier. Unless it is modified from your class or feats.
+Your initiative modifier is usually equal to your dexterity modifier. It might however be modified by your class or feats.
 
 ## Weapon Attacks
 
@@ -199,17 +198,17 @@ Your initiative modifier is equal to your dexterity modifier. Unless it is modif
   | Weapon with "finesse" | Your choice of Strength/Dexterity|
   | Others | Might be different |
 
-  When attacking with you weapon you first roll a d20 and add the appropriate ability modifier (see the table above). If you are proficient with this weapon, you also add your proficiency bonus. We write the sum of these modifiers into the column named "Atk Bonus", next to the name of the weapon.
+  When attacking with your weapon, you first roll a d20 and add the appropriate ability modifier (see the table above). If you are proficient with this weapon, you also add your proficiency bonus. We write the sum of these modifiers into the column named "Atk Bonus", next to the name of the weapon.
   
   If your roll is greater or equal to the AC of your enemy, you roll to determine how much damage you do. The description of your weapon tells you which die you should use. Roll the die and add the appropriate ability modifier (see the table above). We write the dice type, the modifier and the damage type into the "Damage/Type" column, next to the "Atk Bonus" column.
 
-  Our Cleric "Ambovakri" has a dexterity modifier of +1, a strenght modifier of +4 and a proficiency bonus of +2. She uses two weapons, a shortbow and a flail.
+  Our Cleric "Ambovakri" has a dexterity modifier of +1, a strength modifier of +4 and a proficiency bonus of +2. She uses two weapons, a shortbow and a flail.
 
   The shortbow uses dexterity as a modifier (+1). Ambovakri is also proficient with "simple weapons" (+2). Therefore we write `+3` in the "Atk Bonus" column.
 
   The shortbow description tells us that shortbows do "1d6 piercing damage". Ambovakri also adds her dexterity modifier to this. So we write `1d6+1 piercing` into the "Damage/Type" column.
 
-  The flail uses strength as it's modifier (+3). Ambovakri is not proficient with martial weapons. Therefore we write `+4` in the "Atk Bonus" column.
+  The flail uses strength as it's modifier (+4). Ambovakri is not proficient with martial weapons. Therefore we write `+4` in the "Atk Bonus" column.
 
   The flail does "1d8 bludgeoning" damage, so we write `1d8+4 bludgeoning` in the "Damage/Type" column.
 
